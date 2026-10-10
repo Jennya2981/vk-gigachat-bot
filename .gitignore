@@ -1,0 +1,34 @@
+# Переменные окружения с секретными ключами
+.env
+.env.*
+!.env.example
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+*.egg-info/
+dist/
+build/
+eggs/
+*.egg
+
+# Виртуальное окружение
+venv/
+env/
+.venv/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# ОС
+.DS_Store
+Thumbs.db
+
+# Логи запуска
+*.log
